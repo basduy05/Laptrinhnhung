@@ -1,0 +1,52 @@
+# Build directories
+build/
+*.build/
+*.tmp/
+
+# Arduino IDE files
+*.ino.cpp
+*.ino.hex
+*.ino.with_bootloader.hex
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Node modules (if any)
+node_modules/
+
+# Environment files
+.env
+
+# Database files
+*.db
+*.sqlite
+
+# Firmware binaries
+*.bin
+*.elf
+
+# IDE specific
+.idea/
+*.suo
+*.user
+
+# Firmware specific
+# Ignore compiled firmware files if generated
+*.o
+*.d
